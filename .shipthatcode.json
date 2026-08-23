@@ -1,0 +1,62 @@
+{
+  "course": "build-bittorrent",
+  "language": "cpp",
+  "language_id": 54,
+  "entrypoint": "main.cpp",
+  "version": 1,
+  "content_hash": "0193fc8683e94381",
+  "lessons": [
+    {
+      "slug": "bencoding",
+      "tests_hash": "d123a607a00d"
+    },
+    {
+      "slug": "metainfo",
+      "tests_hash": "0edf17626577"
+    },
+    {
+      "slug": "magnet-uri",
+      "tests_hash": "675018a35588"
+    },
+    {
+      "slug": "tracker-http",
+      "tests_hash": "e59ba85e59a7"
+    },
+    {
+      "slug": "udp-tracker",
+      "tests_hash": "73dd4592e676"
+    },
+    {
+      "slug": "peer-handshake",
+      "tests_hash": "7872b10bbc69"
+    },
+    {
+      "slug": "peer-messages",
+      "tests_hash": "97655fa8dec0"
+    },
+    {
+      "slug": "piece-verify",
+      "tests_hash": "80ee1647e0c0"
+    },
+    {
+      "slug": "choking-algorithm",
+      "tests_hash": "6af8299476ec"
+    },
+    {
+      "slug": "rarest-first",
+      "tests_hash": "ed7b43014203"
+    },
+    {
+      "slug": "endgame-mode",
+      "tests_hash": "b74989fb37c8"
+    },
+    {
+      "slug": "dht-kademlia",
+      "tests_hash": "fda425e222e8"
+    },
+    {
+      "slug": "full-client",
+      "tests_hash": "4ac3e7fd0eab"
+    }
+  ]
+}
