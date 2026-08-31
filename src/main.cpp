@@ -69,6 +69,10 @@ json decode_list(const std::string& encoded_value, size_t& pos) {
     return list;
 }
 
+json decode_dict(const std::string& encoded_value, size_t& pos){
+    
+}
+
 json decode_bencoded_value(const std::string& encoded_value, size_t& pos) {
     if (pos >= encoded_value.size()) {
         throw std::runtime_error("Invalid encoded value: " + encoded_value);
@@ -82,6 +86,9 @@ json decode_bencoded_value(const std::string& encoded_value, size_t& pos) {
     }
     else if (encoded_value[pos] == 'l') {
         return decode_list(encoded_value, pos);
+    }
+    else if(encoded_value[pos] == 'd'){
+        return decode_dict(encoded_value,pos);
     }
     else {
         throw std::runtime_error("Unhandled encoded value: " + encoded_value);
